@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .aligns-item {
+    @apply px-8 mx-auto max-w-7xl;
+  }
+}
